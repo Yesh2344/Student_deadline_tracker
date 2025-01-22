@@ -4,7 +4,7 @@
 
 Enhanced Deadline Tracker is a user-friendly desktop application built with Python and Tkinter. It helps students and professionals manage their assignments and deadlines efficiently with a clean, modern interface and smooth interactions.
 
-![Enhanced Deadline Tracker Screenshot]((https://github.com/Yesh2344/Student_deadline_tracker/blob/main/Screenshot%20(144).png))
+![Enhanced Deadline Tracker Screenshot](https://github.com/Yesh2344/Student_deadline_tracker/blob/main/Screenshot%20(144).png)
 
 ## Features
 
