@@ -75,6 +75,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 If you have any questions or feedback, please contact:
 
-Your Name - email@example.com
+Your Name - yeswanthsoma83@example.com
 
 Project Link: [https://github.com/yourusername/enhanced-deadline-tracker](https://github.com/yourusername/enhanced-deadline-tracker)
