@@ -8,6 +8,7 @@ class DeadlineTracker:
 # Added comment
     def __init__(self, master):
         self.master = master
+# Added comment
         self.master.title("Enhanced Deadline Tracker")
         self.master.geometry("900x600")
         self.style = Style(theme="flatly")
