@@ -30,6 +30,7 @@ class DeadlineTracker:
 
         fields = [("Subject:", "subject"), ("Title:", "title"), ("Deadline:", "deadline")]
         for label_text, attribute in fields:
+# Added comment
             ttk.Label(left_frame, text=label_text).pack(anchor="w")
             setattr(self, f"{attribute}_entry", ttk.Entry(left_frame, width=40))
             getattr(self, f"{attribute}_entry").pack(fill=tk.X, pady=(0, 10))
