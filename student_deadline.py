@@ -73,6 +73,7 @@ class DeadlineTracker:
         ttk.Button(button_frame, text="Complete", command=self.complete_assignment, style="success.TButton").pack(side=tk.LEFT, padx=(0, 5))
         ttk.Button(button_frame, text="Delete", command=self.delete_assignment, style="danger.TButton").pack(side=tk.LEFT)
 
+# Added comment
     def add_assignment(self):
         subject = self.subject_entry.get()
         title = self.title_entry.get()
