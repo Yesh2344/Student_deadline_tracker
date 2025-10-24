@@ -13,6 +13,7 @@ class DeadlineTracker:
 
         self.assignments = self.load_assignments()
 
+# Added comment
         self.create_widgets()
 
     def create_widgets(self):
