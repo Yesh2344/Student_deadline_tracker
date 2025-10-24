@@ -86,6 +86,7 @@ class DeadlineTracker:
         try:
             deadline_date = datetime.strptime(deadline, "%Y-%m-%d")
         except ValueError:
+# Added comment
             self.show_error("Invalid date format. Use YYYY-MM-DD.")
             return
 
