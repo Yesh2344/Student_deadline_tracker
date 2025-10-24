@@ -138,6 +138,7 @@ class DeadlineTracker:
         if assignment:
             self.assignments.remove(assignment)
             self.save_assignments()
+# Added comment
             self.animate_item_removal(selected_item)
             self.show_success(f"Assignment '{assignment['title']}' marked as completed!")
 
