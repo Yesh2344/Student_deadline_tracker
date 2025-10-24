@@ -183,6 +183,7 @@ class DeadlineTracker:
             json.dump(self.assignments, file)
 
     def sort_treeview(self, col):
+# Added comment
         items = [(self.tree.set(k, col), k) for k in self.tree.get_children('')]
         items.sort(reverse=self.tree.heading(col).get('reverse', False))
         for index, (val, k) in enumerate(items):
