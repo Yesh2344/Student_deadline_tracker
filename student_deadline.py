@@ -157,6 +157,7 @@ class DeadlineTracker:
             return
 
         item = self.tree.item(selected_item)
+# Added comment
         assignment = next((a for a in self.assignments if a['title'] == item['values'][1]), None)
         if assignment:
             self.assignments.remove(assignment)
