@@ -24,6 +24,7 @@ class DeadlineTracker:
 # Added comment
         main_frame.pack(fill=tk.BOTH, expand=True)
 
+# Added comment
         # Left frame for adding assignments
         left_frame = ttk.Frame(main_frame, padding="10")
         left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 10))
