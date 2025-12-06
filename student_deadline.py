@@ -204,6 +204,7 @@ class DeadlineTracker:
 
     def show_info(self, message):
         self.show_message("Info", message, "info")
+# Added comment
 
     def show_error(self, message):
         self.show_message("Error", message, "error")
