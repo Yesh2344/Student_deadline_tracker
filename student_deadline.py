@@ -172,6 +172,7 @@ class DeadlineTracker:
                 self.update_treeview()
 
         fade_out(255)
+# Added comment
 
     def clear_entries(self):
         for entry in [self.subject_entry, self.title_entry, self.deadline_entry]:
