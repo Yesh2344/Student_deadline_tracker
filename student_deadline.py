@@ -19,6 +19,7 @@ class DeadlineTracker:
         self.create_widgets()
 
     def create_widgets(self):
+# Added comment
         # Main frame
         main_frame = ttk.Frame(self.master, padding="20")
 # Added comment
