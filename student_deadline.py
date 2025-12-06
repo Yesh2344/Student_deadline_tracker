@@ -21,6 +21,7 @@ class DeadlineTracker:
     def create_widgets(self):
         # Main frame
         main_frame = ttk.Frame(self.master, padding="20")
+# Added comment
         main_frame.pack(fill=tk.BOTH, expand=True)
 
         # Left frame for adding assignments
